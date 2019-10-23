@@ -1,0 +1,132 @@
+html,body{
+  margin: 0;
+  background-image: url("trans.png");
+}
+
+
+canvas {
+  display: block;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+#subP5{
+
+  position: relative;
+    display: flex;
+
+}
+
+#card{
+    overflow: hidden;
+  border-radius:15;
+  width: 300px;
+  height: 300px;
+  
+  margin-left:30px;
+  margin-top: 20px;
+
+
+  border:10px solid rgb(118,0,245);
+  opacity:1;
+  position:relative;
+}
+
+#carda{
+  
+    margin-top: 20px;
+
+margin-left:30px;
+  
+ border-radius:15;
+  width: 300px;
+  height: 300px;
+  border:10px solid rgb(252,0,172);
+  opacity:1;
+  position:relative;
+  overflow: hidden;;
+}
+
+#cardd{
+ 
+ top: 30px;
+  font-size:20px;
+  opacity:1;
+  position:relative;
+  text-align:center;
+  font-family:myfont;
+  
+}
+
+#instruction{
+ font-family:myfont;
+  font-size:80px;
+  position:relative;
+  margin:10px;
+  padding-top: 30px;
+  text-align:center;
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+@font-face {
+  font-family: myfont;
+  src: url(Pixelogist.ttf);
+}
+h2{
+ font-family:myfont;
+font-size:15px;
+
+}
+
+.button{
+
+  background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+
+
+}
+#bn{
+  margin-top:10px;
+
+
+}
+
+.btshow{
+  display:none;
+}
+
+.button:hover{
+background-color:white;
+  color:black;
+}
+
+
+
+#holder{
+  float: left;
+width:100%;
+padding: 20px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#maincanvas{
+  position:absolute;
+
+  float: left;
+
+  display:none;
+}
+
